@@ -8,219 +8,335 @@ const TOSA_CHAPTER6 = {
 
   text:`
 
-  <span class="word" data-id="0">この</span>
+この
 
-  <span class="word" data-id="1">旅</span>
+<span class="word" data-id="0">旅</span>
 
-  に、
+に、
 
-  <span class="word" data-id="2">娘</span>
+<span class="word" data-id="1">娘</span>
 
-  の
+の
 
-  <span class="word" data-id="3">なき</span>
+<span class="word" data-id="2">なき</span>
 
-  ことを
+ことを
 
-  <span class="word" data-id="4">思ひ</span>
+<span class="word" data-id="3">思ひ</span>
 
-  出でて、
+<span class="word" data-id="4">出で</span>
 
-  <span class="word" data-id="5">涙</span>
+て、
 
-  とどめ
+<span class="word" data-id="5">涙</span>
 
-  がたし。
+とどめ
 
-  <span class="word" data-id="6">父母</span>
+がたし。
 
-  の
+<span class="word" data-id="6">父母</span>
 
-  <span class="word" data-id="7">心</span>
+の
 
-  の
+<span class="word" data-id="7">心</span>
 
-  <span class="word" data-id="8">悲しき</span>
+の
 
-  こと、
+<span class="word" data-id="8">悲しき</span>
 
-  <span class="word" data-id="9">言はむ</span>
+こと、
 
-  方
+<span class="word" data-id="9">言は</span>
 
-  なし。
+<span class="word" data-id="10">む</span>
 
-  `,
+<span class="word" data-id="11">方</span>
+
+なし。
+
+<span class="word" data-id="12">人々</span>
+
+も
+
+<span class="word" data-id="13">聞き</span>
+
+て、
+
+<span class="word" data-id="14">泣き</span>
+
+けり。
+
+`,
 
   words:[
 
-    {
-      word:"この",
-      baseForm:"この",
-      meaning:"この",
-      posAnswer:"連体詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["連体詞","名詞","副詞","助詞"],
-      explanation:"後ろの名詞を修飾する。"
-    },
+{
+  word:"旅",
+  baseForm:"旅",
+  meaning:"たび",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"土佐から京への旅。"
+},
 
-    {
-      word:"旅",
-      baseForm:"旅",
-      meaning:"たび",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"土佐から京への帰路。"
-    },
+{
+  word:"娘",
+  baseForm:"娘",
+  meaning:"むすめ",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"亡くなった娘。"
+},
 
-    {
-      word:"娘",
-      baseForm:"娘",
-      meaning:"むすめ",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"土佐で亡くなった娘。"
-    },
-
-    {
-      word:"なき",
-      baseForm:"なし",
-      meaning:"いない",
-      posAnswer:"形容詞",
-      typeAnswer:"ク活用",
-      formAnswer:"連体形",
-      posChoices:["形容詞","動詞","助動詞","名詞"],
-      typeChoices:[
-        "ク活用",
-        "シク活用",
-        "ナリ活用",
-        "タリ活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"娘がいないことを表す。"
-    },
-
-    {
-      word:"思ひ",
-      baseForm:"思ふ",
-      meaning:"思う",
-      posAnswer:"動詞",
-      typeAnswer:"ハ行四段活用",
-      formAnswer:"連用形",
-      posChoices:["動詞","名詞","助動詞","副詞"],
-      typeChoices:[
-        "ハ行四段活用",
-        "ラ行四段活用",
-        "カ行四段活用",
-        "下二段活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"亡き娘を思い出すこと。"
-    },
-
-    {
-      word:"涙",
-      baseForm:"涙",
-      meaning:"なみだ",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"悲しみの涙。"
-    },
-
-    {
-      word:"父母",
-      baseForm:"父母",
-      meaning:"ちちはは",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"娘の両親。"
-    },
-
-    {
-      word:"心",
-      baseForm:"心",
-      meaning:"気持ち",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"親としての思い。"
-    },
-
-    {
-      word:"悲しき",
-      baseForm:"悲し",
-      meaning:"悲しい",
-      posAnswer:"形容詞",
-      typeAnswer:"シク活用",
-      formAnswer:"連体形",
-      posChoices:["形容詞","動詞","助動詞","名詞"],
-      typeChoices:[
-        "シク活用",
-        "ク活用",
-        "ナリ活用",
-        "タリ活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"深い悲しみを表す。"
-    },
-
-    {
-      word:"言はむ",
-      baseForm:"言ふ",
-      meaning:"言い表そう",
-      posAnswer:"動詞",
-      typeAnswer:"ハ行四段活用",
-      formAnswer:"未然形",
-      posChoices:["動詞","名詞","助動詞","副詞"],
-      typeChoices:[
-        "ハ行四段活用",
-        "ラ行四段活用",
-        "カ行四段活用",
-        "下二段活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"意志の助動詞『む』が続く。"
-    }
-
+{
+  word:"なき",
+  baseForm:"なし",
+  meaning:"いない",
+  posAnswer:"形容詞",
+  typeAnswer:"ク活用",
+  formAnswer:"連体形",
+  posChoices:["形容詞","動詞","助動詞","名詞"],
+  typeChoices:[
+    "ク活用",
+    "シク活用",
+    "ナリ活用",
+    "タリ活用"
   ],
+  formChoices:[
+    "連体形",
+    "終止形",
+    "連用形",
+    "未然形"
+  ],
+  explanation:"娘がいないことを表す。"
+},
+
+{
+  word:"思ひ",
+  baseForm:"思ふ",
+  meaning:"思う",
+  posAnswer:"動詞",
+  typeAnswer:"ハ行四段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "ハ行四段活用",
+    "ラ行四段活用",
+    "カ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形"
+  ],
+  explanation:"亡き娘を思う。"
+},
+
+{
+  word:"出で",
+  baseForm:"出づ",
+  meaning:"現れる",
+  posAnswer:"動詞",
+  typeAnswer:"ダ行下二段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "ダ行下二段活用",
+    "ラ行四段活用",
+    "カ行下二段活用",
+    "上一段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形"
+  ],
+  explanation:"思い出すの『出づ』。"
+},
+
+{
+  word:"涙",
+  baseForm:"涙",
+  meaning:"なみだ",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"悲しみの涙。"
+},
+
+{
+  word:"父母",
+  baseForm:"父母",
+  meaning:"ちちはは",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"娘の両親。"
+},
+
+{
+  word:"心",
+  baseForm:"心",
+  meaning:"気持ち",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"親の気持ち。"
+},
+
+{
+  word:"悲しき",
+  baseForm:"悲し",
+  meaning:"悲しい",
+  posAnswer:"形容詞",
+  typeAnswer:"シク活用",
+  formAnswer:"連体形",
+  posChoices:["形容詞","動詞","助動詞","名詞"],
+  typeChoices:[
+    "シク活用",
+    "ク活用",
+    "ナリ活用",
+    "タリ活用"
+  ],
+  formChoices:[
+    "連体形",
+    "終止形",
+    "連用形",
+    "未然形"
+  ],
+  explanation:"深い悲しみ。"
+},
+
+{
+  word:"言は",
+  baseForm:"言ふ",
+  meaning:"言う",
+  posAnswer:"動詞",
+  typeAnswer:"ハ行四段活用",
+  formAnswer:"未然形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "ハ行四段活用",
+    "ラ行四段活用",
+    "カ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形"
+  ],
+  explanation:"助動詞『む』が続く。"
+},
+
+{
+  word:"む",
+  baseForm:"む",
+  meaning:"〜しよう",
+  posAnswer:"助動詞",
+  typeAnswer:"特殊型",
+  formAnswer:"終止形",
+  posChoices:["助動詞","動詞","助詞","名詞"],
+  typeChoices:[
+    "特殊型",
+    "ク活用",
+    "シク活用",
+    "タリ活用"
+  ],
+  formChoices:[
+    "終止形",
+    "連体形",
+    "連用形",
+    "未然形"
+  ],
+  explanation:"意志・推量の助動詞。"
+},
+
+{
+  word:"方",
+  baseForm:"方",
+  meaning:"方法",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"方法・手段。"
+},
+
+{
+  word:"人々",
+  baseForm:"人々",
+  meaning:"人たち",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"周囲の人々。"
+},
+
+{
+  word:"聞き",
+  baseForm:"聞く",
+  meaning:"聞く",
+  posAnswer:"動詞",
+  typeAnswer:"カ行四段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "カ行四段活用",
+    "ラ行四段活用",
+    "ガ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形"
+  ],
+  explanation:"話を聞く。"
+},
+
+{
+  word:"泣き",
+  baseForm:"泣く",
+  meaning:"泣く",
+  posAnswer:"動詞",
+  typeAnswer:"カ行四段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "カ行四段活用",
+    "ガ行四段活用",
+    "ラ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形"
+  ],
+  explanation:"悲しみで泣く。"
+}
+
+],
 
   reading:{
 

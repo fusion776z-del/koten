@@ -6,134 +6,328 @@ const TOSA_CHAPTER2 = {
 
   chapter:"第2章 出発",
 
-  text:`
+text:`
 
-  <span class="word" data-id="0">十二月</span>
+<span class="word" data-id="0">舟</span>
 
-  二十日
+<span class="word" data-id="1">に</span>
 
-  <span class="word" data-id="1">あまり</span>
+<span class="word" data-id="2">乗り</span>
 
-  一日
+て、
 
-  の
+<span class="word" data-id="3">浦</span>
 
-  <span class="word" data-id="2">日</span>、
+<span class="word" data-id="4">より</span>
 
-  <span class="word" data-id="3">門出</span>
+<span class="word" data-id="5">漕ぎ</span>
 
-  す。
+<span class="word" data-id="6">出づ</span>。
 
-  その
+<span class="word" data-id="7">人々</span>
 
-  <span class="word" data-id="4">よし</span>、
+、
 
-  いささか
+<span class="word" data-id="8">別れ</span>
 
-  <span class="word" data-id="5">もの</span>
+を
 
-  に
+<span class="word" data-id="9">惜しみ</span>
 
-  <span class="word" data-id="6">書き</span>
+て、
 
-  つく。
+<span class="word" data-id="10">酒</span>
 
-  `,
+<span class="word" data-id="11">飲み</span>
 
-  words:[
+<span class="word" data-id="12">けり</span>。
 
-    {
-      word:"十二月",
-      baseForm:"十二月",
-      meaning:"じゅうにがつ",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"出発した月。"
-    },
+<span class="word" data-id="13">海</span>
 
-    {
-      word:"あまり",
-      baseForm:"あまり",
-      meaning:"過ぎ",
-      posAnswer:"接尾語",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["接尾語","名詞","副詞","助詞"],
-      explanation:"二十日を少し過ぎたこと。"
-    },
+の上は
 
-    {
-      word:"日",
-      baseForm:"日",
-      meaning:"ひ",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"日付を表す。"
-    },
+いと
 
-    {
-      word:"門出",
-      baseForm:"門出",
-      meaning:"旅立ち",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","動詞","副詞","助動詞"],
-      explanation:"旅の出発。"
-    },
+<span class="word" data-id="14">静か</span>
 
-    {
-      word:"よし",
-      baseForm:"よし",
-      meaning:"事情・様子",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","副詞","動詞","助動詞"],
-      explanation:"その出来事の様子。"
-    },
+なり。
 
-    {
-      word:"もの",
-      baseForm:"もの",
-      meaning:"文章",
-      posAnswer:"名詞",
-      typeAnswer:"なし",
-      formAnswer:"なし",
-      posChoices:["名詞","副詞","動詞","助動詞"],
-      explanation:"ここでは日記を指す。"
-    },
+`,
 
-    {
-      word:"書き",
-      baseForm:"書く",
-      meaning:"書く",
-      posAnswer:"動詞",
-      typeAnswer:"カ行四段活用",
-      formAnswer:"連用形",
-      posChoices:["動詞","名詞","助動詞","副詞"],
-      typeChoices:[
-        "カ行四段活用",
-        "ラ行四段活用",
-        "ハ行四段活用",
-        "下二段活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"日記を書きつけること。"
-    }
+ words:[
 
+{
+  word:"舟",
+  baseForm:"舟",
+  meaning:"ふね",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"帰京のための船。"
+},
+
+{
+  word:"に",
+  baseForm:"に",
+  meaning:"〜に",
+  posAnswer:"助詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["助詞","名詞","副詞","助動詞"],
+  explanation:"格助詞。"
+},
+
+{
+  word:"乗り",
+  baseForm:"乗る",
+  meaning:"乗る",
+  posAnswer:"動詞",
+  typeAnswer:"ラ行四段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "ラ行四段活用",
+    "カ行四段活用",
+    "タ行四段活用",
+    "下二段活用"
   ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"船に乗ること。"
+},
+
+{
+  word:"浦",
+  baseForm:"浦",
+  meaning:"海辺",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"船が出る場所。"
+},
+
+{
+  word:"より",
+  baseForm:"より",
+  meaning:"〜から",
+  posAnswer:"助詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["助詞","副詞","名詞","助動詞"],
+  explanation:"起点を表す格助詞。"
+},
+
+{
+  word:"漕ぎ",
+  baseForm:"漕ぐ",
+  meaning:"こぐ",
+  posAnswer:"動詞",
+  typeAnswer:"ガ行四段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "ガ行四段活用",
+    "ラ行四段活用",
+    "カ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"船を進めること。"
+},
+
+{
+  word:"出づ",
+  baseForm:"出づ",
+  meaning:"出る",
+  posAnswer:"動詞",
+  typeAnswer:"ダ行下二段活用",
+  formAnswer:"終止形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "ダ行下二段活用",
+    "ラ行四段活用",
+    "カ行下二段活用",
+    "上一段活用"
+  ],
+  formChoices:[
+    "終止形",
+    "連体形",
+    "連用形",
+    "未然形"
+  ],
+  explanation:"船が出発する。"
+},
+
+{
+  word:"人々",
+  baseForm:"人々",
+  meaning:"人たち",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"見送りや同行の人々。"
+},
+
+{
+  word:"別れ",
+  baseForm:"別る",
+  meaning:"別れる",
+  posAnswer:"動詞",
+  typeAnswer:"ラ行下二段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","名詞","助動詞","副詞"],
+  typeChoices:[
+    "ラ行下二段活用",
+    "ラ行四段活用",
+    "ハ行下二段活用",
+    "上一段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"別れの場面。"
+},
+
+{
+  word:"惜しみ",
+  baseForm:"惜しむ",
+  meaning:"名残を惜しむ",
+  posAnswer:"動詞",
+  typeAnswer:"マ行四段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "マ行四段活用",
+    "ラ行四段活用",
+    "カ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"別れを残念に思う。"
+},
+
+{
+  word:"酒",
+  baseForm:"酒",
+  meaning:"さけ",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"送別の酒。"
+},
+
+{
+  word:"飲み",
+  baseForm:"飲む",
+  meaning:"飲む",
+  posAnswer:"動詞",
+  typeAnswer:"マ行四段活用",
+  formAnswer:"連用形",
+  posChoices:["動詞","助動詞","名詞","副詞"],
+  typeChoices:[
+    "マ行四段活用",
+    "ラ行四段活用",
+    "カ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"酒を飲むこと。"
+},
+
+{
+  word:"けり",
+  baseForm:"けり",
+  meaning:"〜た",
+  posAnswer:"助動詞",
+  typeAnswer:"特殊型",
+  formAnswer:"終止形",
+  posChoices:["助動詞","動詞","助詞","名詞"],
+  typeChoices:[
+    "特殊型",
+    "ク活用",
+    "シク活用",
+    "タリ活用"
+  ],
+  formChoices:[
+    "終止形",
+    "連体形",
+    "連用形",
+    "未然形"
+  ],
+  explanation:"過去・詠嘆の助動詞。"
+},
+
+{
+  word:"海",
+  baseForm:"海",
+  meaning:"うみ",
+  posAnswer:"名詞",
+  typeAnswer:"なし",
+  formAnswer:"なし",
+  posChoices:["名詞","動詞","副詞","助詞"],
+  explanation:"航海中の海。"
+},
+
+{
+  word:"静か",
+  baseForm:"静かなり",
+  meaning:"静かだ",
+  posAnswer:"形容動詞",
+  typeAnswer:"ナリ活用",
+  formAnswer:"語幹",
+  posChoices:["形容動詞","形容詞","動詞","名詞"],
+  typeChoices:[
+    "ナリ活用",
+    "タリ活用",
+    "ク活用",
+    "シク活用"
+  ],
+  formChoices:[
+    "語幹",
+    "連用形",
+    "終止形",
+    "連体形"
+  ],
+  explanation:"穏やかな海の様子。"
+}
+
+],
 
   reading:{
 
