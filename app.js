@@ -34,6 +34,32 @@ const TAKETORI_CHAPTERS = [
   TAKETORI_CHAPTER9,
   TAKETORI_CHAPTER10
 ];
+
+const ISE_CHAPTERS = [
+  ISE,
+  ISE_CHAPTER2,
+  ISE_CHAPTER3,
+  ISE_CHAPTER4,
+  ISE_CHAPTER5,
+  ISE_CHAPTER6,
+  ISE_CHAPTER7,
+  ISE_CHAPTER8,
+  ISE_CHAPTER9,
+  ISE_CHAPTER10
+];
+
+const TOSA_CHAPTERS = [
+  TOSA,
+  TOSA_CHAPTER2,
+  TOSA_CHAPTER3,
+  TOSA_CHAPTER4,
+  TOSA_CHAPTER5,
+  TOSA_CHAPTER6,
+  TOSA_CHAPTER7,
+  TOSA_CHAPTER8,
+  TOSA_CHAPTER9,
+  TOSA_CHAPTER10
+];
 const WORKS = {
 
   makura:{
@@ -46,7 +72,24 @@ const WORKS = {
     id:"taketori",
     title:"竹取物語",
     chapters:TAKETORI_CHAPTERS
-  }
+  },
+
+ise:{
+  id:"ise",
+  title:"伊勢物語",
+  chapters:ISE_CHAPTERS
+},
+
+tosa:{
+  id:"tosa",
+  title:"土佐日記",
+  chapters:TOSA_CHAPTERS
+}
+
+
+
+
+
 
 };
 
@@ -60,6 +103,7 @@ let exp = 0;
 
 let currentStep = "pos";
 let drawerTimer = null;
+let questionLocked = false;
 
 window.onload = () => {
 
@@ -68,27 +112,32 @@ window.onload = () => {
 
 area.innerHTML = `
 
-  <div
-    class="work-card"
-    onclick="openSeries('makura')">
+<div class="work-card"
+onclick="openSeries('makura')">
+<h3>枕草子</h3>
+<p>全10章</p>
+</div>
 
-    <h3>枕草子</h3>
+<div class="work-card"
+onclick="openSeries('taketori')">
+<h3>竹取物語</h3>
+<p>全10章</p>
+</div>
 
-    <p>全10章</p>
+<div class="work-card"
+onclick="openSeries('ise')">
+<h3>伊勢物語</h3>
+<p>全10章</p>
+</div>
 
-  </div>
-
-  <div
-    class="work-card"
-    onclick="openSeries('taketori')">
-
-    <h3>竹取物語</h3>
-
-    <p>全10章</p>
-
-  </div>
+<div class="work-card"
+onclick="openSeries('tosa')">
+<h3>土佐日記</h3>
+<p>全10章</p>
+</div>
 
 `;
+
 };
 function openSeries(seriesId){
 
@@ -141,10 +190,13 @@ document
 currentWork =
 [
   ...CHAPTERS,
-  ...TAKETORI_CHAPTERS
+  ...TAKETORI_CHAPTERS,
+  ...ISE_CHAPTERS,
+  ...TOSA_CHAPTERS
 ].find(
   chapter => chapter.id === id
 );
+
   // 最大20問制限
   if(currentWork.words.length > 20){
 
@@ -244,7 +296,7 @@ function setupWords(){
 
 }
 function showQuestion(){
-
+questionLocked = false;
   drawer.classList.add("show");
 
   document
@@ -396,6 +448,14 @@ function showFormQuestion(){
 }
 
 function finishQuestion(){
+
+  if(questionLocked){
+    return;
+  }
+
+  questionLocked = true;
+
+  choices.innerHTML = "";
 
   result.innerHTML = `
 
