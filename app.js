@@ -510,11 +510,7 @@ function finishQuestion(){
 
   currentStep = "pos";
 
- setTimeout(() => {
 
-  closeDrawer();
-
-},2500);
 
 }
 
