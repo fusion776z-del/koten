@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>ことのは平安</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="cassettes/makura.js"></script>
+<script src="cassettes/makura2.js"></script>
+<script src="cassettes/makura3.js"></script>
+<script src="cassettes/makura4.js"></script>
+<script src="cassettes/makura5.js"></script>
+<script src="cassettes/makura6.js"></script>
+<script src="cassettes/makura7.js"></script>
+<script src="cassettes/makura8.js"></script>
+<script src="cassettes/makura9.js"></script>
+<script src="cassettes/makura10.js"></script>
+
+<script src="cassettes/taketori.js"></script>
+<script src="cassettes/taketori2.js"></script>
+<script src="cassettes/taketori3.js"></script>
+<script src="cassettes/taketori4.js"></script>
+<script src="cassettes/taketori5.js"></script>
+<script src="cassettes/taketori6.js"></script>
+<script src="cassettes/taketori7.js"></script>
+<script src="cassettes/taketori8.js"></script>
+<script src="cassettes/taketori9.js"></script>
+<script src="cassettes/taketori10.js"></script>
+
+<script src="app.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+
+<div class="row">
+
+<div id="workTitle">
+ことのは平安
+</div>
+
+<div class="badge">
+Lv <span id="level">1</span>
+</div>
+
+</div>
+
+<h2 id="chapterTitle">
+作品を選択してください
+</h2>
+
+<div class="progress">
+<div
+id="progressBar"
+class="progress-fill">
+</div>
+</div>
+
+<div class="exp">
+EXP :
+<span id="exp">0</span>
+</div>
+
+</header>
+
+<div id="workSelect">
+</div>
+<div id="chapterSelect"
+     style="display:none;">
+</div>
+<div
+id="studyUI"
+style="display:none;">
+
+<section
+class="passage"
+id="lessonScreen">
+</section>
+
+<div
+class="translation"
+id="readingQuiz">
+</div>
+
+<div
+class="translation"
+id="translation">
+</div>
+
+<!-- 章クリア -->
+
+<div
+id="chapterComplete"
+style="display:none; margin:20px;">
+
+<button
+class="btn green"
+onclick="backToChapter()">
+
+章選択へ戻る
+
+</button>
+
+</div>
+
+<div class="status">
+
+単語分析
+
+<span id="count">
+0 / 0
+</span>
+
+</div>
+
+<div class="actions">
+
+<button onclick="backToTitle()">
+タイトルへ戻る
+</button>
+
+<button
+id="translationBtn"
+class="btn green lock">
+
+現代語訳
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="overlay"></div>
+
+<div class="drawer" id="drawer">
+
+
+<button
+class="close-btn"
+onclick="closeDrawer()">
+
+✕
+
+</button>
+
+<h2 id="term">
+</h2>
+
+<div class="question">
+品詞を選ぼう
+</div>
+
+<div id="choices">
+</div>
+
+<div id="result">
+</div>
+
+</div>
+</body>
+
+</html>
