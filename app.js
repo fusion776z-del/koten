@@ -295,6 +295,19 @@ function setupWords(){
   });
 
 }
+
+function shuffleArray(arr){
+  const array = [...arr];
+
+  for(let i = array.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+
+  return array;
+}
+
+
 function showQuestion(){
 questionLocked = false;
   drawer.classList.add("show");
@@ -328,12 +341,11 @@ questionLocked = false;
 }
 
 function showPosQuestion(){
-
   document.querySelector(".question")
   .textContent =
   "品詞を選ぼう";
 
-  currentData.posChoices.forEach(choice => {
+  shuffleArray(currentData.posChoices).forEach(choice => {
 
     const btn =
     document.createElement("button");
@@ -381,7 +393,7 @@ function showTypeQuestion(){
   .textContent =
   "活用の種類を選ぼう";
 
-  currentData.typeChoices.forEach(choice => {
+  shuffleArray(currentData.typeChoices).forEach(choice => {
 
     const btn =
     document.createElement("button");
@@ -418,7 +430,7 @@ function showFormQuestion(){
   .textContent =
   "活用形を選ぼう";
 
-  currentData.formChoices.forEach(choice => {
+  shuffleArray(currentData.formChoices).forEach(choice => {
 
     const btn =
     document.createElement("button");
