@@ -134,15 +134,33 @@ const SARASHINA_02 = {
     },
 
     {
-      word:"うつりゆく",
-      baseForm:"うつりゆく",
-      meaning:"次々浮かぶ",
-      posAnswer:"動詞",
-      typeAnswer:"カ行四段活用",
-      formAnswer:"連体形",
-      posChoices:["動詞","名詞","副詞","助動詞"],
-      explanation:"心に浮かび続ける。"
-    },
+  word:"うつりゆく",
+  baseForm:"うつりゆく",
+  meaning:"次々浮かぶ",
+  posAnswer:"動詞",
+  typeAnswer:"カ行四段活用",
+  formAnswer:"連体形",
+
+  posChoices:["動詞","名詞","副詞","助動詞"],
+
+  typeChoices:[
+    "カ行四段活用",
+    "ハ行四段活用",
+    "ラ行四段活用",
+    "ナ行変格活用"
+  ],
+
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+
+  explanation:"心に浮かび続ける。"
+},
 
     {
       word:"よしなしごと",
@@ -166,38 +184,92 @@ const SARASHINA_02 = {
       explanation:"何となく。"
     },
 
-    {
-      word:"書きつくれば",
-      baseForm:"書きつくる",
-      meaning:"書き続けると",
-      posAnswer:"動詞",
-      typeAnswer:"ラ行下二段活用",
-      formAnswer:"已然形",
-      posChoices:["動詞","名詞","副詞","助動詞"],
-      explanation:"已然形＋ば。"
-    },
+  {
+  word:"書きつくれば",
+  baseForm:"書きつくる",
+  meaning:"書き続けると",
+  posAnswer:"動詞",
+  typeAnswer:"ラ行下二段活用",
+  formAnswer:"已然形",
+
+  posChoices:["動詞","名詞","副詞","助動詞"],
+
+  typeChoices:[
+    "ラ行下二段活用",
+    "ダ行下二段活用",
+    "ラ行四段活用",
+    "カ行四段活用"
+  ],
+
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+
+  explanation:"已然形＋ば。"
+},
 
     {
-      word:"あやしう",
-      baseForm:"あやし",
-      meaning:"不思議に",
-      posAnswer:"形容詞",
-      typeAnswer:"シク活用",
-      formAnswer:"連用形",
-      posChoices:["形容詞","動詞","名詞","助動詞"],
-      explanation:"シク活用連用形。"
-    },
+  word:"あやしう",
+  baseForm:"あやし",
+  meaning:"不思議に",
+  posAnswer:"形容詞",
+  typeAnswer:"シク活用",
+  formAnswer:"連用形",
 
-    {
-      word:"ものぐるほしけれ",
-      baseForm:"ものぐるほし",
-      meaning:"夢中になる",
-      posAnswer:"形容詞",
-      typeAnswer:"シク活用",
-      formAnswer:"已然形",
-      posChoices:["形容詞","動詞","名詞","助動詞"],
-      explanation:"係り結びの結び。"
-    },
+  posChoices:["形容詞","動詞","名詞","助動詞"],
+
+  typeChoices:[
+    "シク活用",
+    "ク活用",
+    "ナリ活用",
+    "タリ活用"
+  ],
+
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+
+  explanation:"シク活用連用形。"
+},
+
+{
+  word:"ものぐるほしけれ",
+  baseForm:"ものぐるほし",
+  meaning:"夢中になる",
+  posAnswer:"形容詞",
+  typeAnswer:"シク活用",
+  formAnswer:"已然形",
+
+  posChoices:["形容詞","動詞","名詞","助動詞"],
+
+  typeChoices:[
+    "シク活用",
+    "ク活用",
+    "ナリ活用",
+    "タリ活用"
+  ],
+
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+
+  explanation:"係り結びの結び。"
+},
 
     {
       word:"こそ",
@@ -210,16 +282,34 @@ const SARASHINA_02 = {
       explanation:"係り結びを起こす。"
     },
 
-    {
-      word:"けれ",
-      baseForm:"ものぐるほし",
-      meaning:"已然形",
-      posAnswer:"形容詞",
-      typeAnswer:"シク活用",
-      formAnswer:"已然形",
-      posChoices:["形容詞","動詞","助動詞","名詞"],
-      explanation:"こその結び。"
-    },
+ {
+  word:"けれ",
+  baseForm:"ものぐるほし",
+  meaning:"已然形",
+  posAnswer:"形容詞",
+  typeAnswer:"シク活用",
+  formAnswer:"已然形",
+
+  posChoices:["形容詞","動詞","助動詞","名詞"],
+
+  typeChoices:[
+    "シク活用",
+    "ク活用",
+    "ナリ活用",
+    "タリ活用"
+  ],
+
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+
+  explanation:"こその結び。"
+},
 
     {
       word:"結び",
