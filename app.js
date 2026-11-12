@@ -60,6 +60,20 @@ const TOSA_CHAPTERS = [
   TOSA_CHAPTER9,
   TOSA_CHAPTER10
 ];
+
+const SARASHINA_CHAPTERS = [
+  SARASHINA,
+  SARASHINA_02,
+  SARASHINA_03,
+  SARASHINA_04,
+  SARASHINA_05,
+  SARASHINA_06,
+  SARASHINA_07,
+  SARASHINA_08,
+  SARASHINA_09,
+  SARASHINA_10
+];
+
 const WORKS = {
 
   makura:{
@@ -84,6 +98,12 @@ tosa:{
   id:"tosa",
   title:"土佐日記",
   chapters:TOSA_CHAPTERS
+},
+
+sarashina:{
+  id:"sarashina",
+  title:"更級日記",
+  chapters:SARASHINA_CHAPTERS
 }
 
 
@@ -136,6 +156,11 @@ onclick="openSeries('tosa')">
 <p>全10章</p>
 </div>
 
+<div class="work-card"
+onclick="openSeries('sarashina')">
+<h3>更級日記</h3>
+<p>全10章</p>
+</div>
 `;
 
 };
@@ -192,7 +217,8 @@ currentWork =
   ...CHAPTERS,
   ...TAKETORI_CHAPTERS,
   ...ISE_CHAPTERS,
-  ...TOSA_CHAPTERS
+  ...TOSA_CHAPTERS,
+  ...SARASHINA_CHAPTERS
 ].find(
   chapter => chapter.id === id
 );
