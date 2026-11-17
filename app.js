@@ -74,6 +74,29 @@ const SARASHINA_CHAPTERS = [
   SARASHINA_10
 ];
 
+const GENJI_CHAPTERS = [
+  GENJI1,
+  GENJI2,
+  GENJI3,
+  GENJI4,
+  GENJI5,
+  GENJI6,
+  GENJI7,
+  GENJI8,
+  GENJI9,
+  GENJI10,
+  GENJI11,
+  GENJI12,
+  GENJI13,
+  GENJI14,
+  GENJI15,
+  GENJI16,
+  GENJI17,
+  GENJI18,
+  GENJI19,
+  GENJI20
+];
+
 const WORKS = {
 
   makura:{
@@ -104,9 +127,13 @@ sarashina:{
   id:"sarashina",
   title:"更級日記",
   chapters:SARASHINA_CHAPTERS
+},
+
+genji:{
+  id:"genji",
+  title:"源氏物語",
+  chapters:GENJI_CHAPTERS
 }
-
-
 
 
 
@@ -161,6 +188,13 @@ onclick="openSeries('sarashina')">
 <h3>更級日記</h3>
 <p>全10章</p>
 </div>
+
+<div class="work-card"
+onclick="openSeries('genji')">
+<h3>源氏物語</h3>
+<p>全20章</p>
+</div>
+
 `;
 
 };
@@ -218,7 +252,8 @@ currentWork =
   ...TAKETORI_CHAPTERS,
   ...ISE_CHAPTERS,
   ...TOSA_CHAPTERS,
-  ...SARASHINA_CHAPTERS
+  ...SARASHINA_CHAPTERS,
+  ...GENJI_CHAPTERS
 ].find(
   chapter => chapter.id === id
 );
@@ -343,7 +378,9 @@ questionLocked = false;
   .classList
   .add("show");
   term.textContent =
-  currentData.word;
+currentData.grammarTarget
+||
+currentData.word;
 
   result.innerHTML = "";
   choices.innerHTML = "";
@@ -496,12 +533,16 @@ function finishQuestion(){
   choices.innerHTML = "";
 
   result.innerHTML = `
-
   <div class="correct">
 
   ✅ 完全正解
 
   <hr>
+
+  問題語：
+  ${currentData.word || "-"}
+
+  <br>
 
   基本形：
   ${currentData.baseForm || "-"}
@@ -509,7 +550,7 @@ function finishQuestion(){
   <br>
 
   品詞：
-  ${currentData.posAnswer}
+  ${currentData.posAnswer || "-"}
 
   <br>
 
@@ -521,7 +562,31 @@ function finishQuestion(){
   活用形：
   ${currentData.formAnswer || "-"}
 
+  ${
+    currentData.grammar
+    ?
+    `
+    <br>
+    文法：
+    ${currentData.grammar}
+    `
+    :
+    ""
+  }
+
   <br>
+${
+  currentData.grammar
+  ?
+  `
+  <div class="grammar-box">
+    文法ポイント<br>
+    ${currentData.grammar}
+  </div>
+  `
+  :
+  ""
+}
 
   意味：
   ${currentData.meaning || "-"}
@@ -535,22 +600,19 @@ function finishQuestion(){
   EXP +20
 
   </div>
-
   `;
 
   currentWordElement
-  .classList
-  .add("done");
+    .classList
+    .add("done");
 
   solved++;
 
   updateStats();
 
   currentStep = "pos";
-
-
-
 }
+
 
 function wrong(){
 
