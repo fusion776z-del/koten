@@ -114,27 +114,30 @@ words:[
 },
 {
   word:"なりたき",
-  baseForm:"なる",
-  meaning:"なりたい",
-  posAnswer:"動詞",
-  typeAnswer:"ラ行四段活用",
+  baseForm:"たし",
+  meaning:"〜したい",
+  posAnswer:"助動詞",
+  typeAnswer:"特殊型",
   formAnswer:"連体形",
-  posChoices:["動詞","名詞","助動詞","副詞"],
+  posChoices:[
+    "助動詞",
+    "動詞",
+    "形容詞",
+    "名詞"
+  ],
   typeChoices:[
-    "ラ行四段活用",
-    "ハ行四段活用",
-    "マ行四段活用",
-    "サ行四段活用"
+    "特殊型",
+    "ク活用",
+    "シク活用",
+    "ナリ活用"
   ],
   formChoices:[
-    "未然形",
-    "連用形",
     "終止形",
     "連体形",
-    "已然形",
-    "命令形"
+    "連用形",
+    "未然形"
   ],
-  explanation:"希望を表す。"
+  explanation:"希望を表す助動詞『たし』の連体形。『尼になりたい心』の意。"
 },
 {
   word:"ける",

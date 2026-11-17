@@ -11,25 +11,20 @@ text:`
 のみ
 <span class="word" data-id="1">物語</span>
 に
-<span class="word" data-id="2">入れ</span>
+<span class="word" data-id="2">入り</span>
 て、
-
 <span class="word" data-id="3">月日</span>
 を
 <span class="word" data-id="4">過ぐす</span>
 ほどに、
-
 <span class="word" data-id="5">世</span>
 の
 <span class="word" data-id="6">はかなき</span>
 ことも、
-
 <span class="word" data-id="7">次第に</span>
 <span class="word" data-id="8">思ひ知らる</span>。
-
 <span class="word" data-id="9">事</span>
 は、
-
 <span class="word" data-id="10">現</span>
 に
 <span class="word" data-id="11">あらず</span>。
@@ -57,13 +52,18 @@ words:[
   explanation:"物語文学。"
 },
 {
-  word:"入れ",
+  word:"入り",
   baseForm:"入る",
   meaning:"打ち込んで",
   posAnswer:"動詞",
   typeAnswer:"ラ行四段活用",
   formAnswer:"連用形",
-  posChoices:["動詞","名詞","助動詞","副詞"],
+  posChoices:[
+    "動詞",
+    "名詞",
+    "助動詞",
+    "副詞"
+  ],
   typeChoices:[
     "ラ行四段活用",
     "ハ行四段活用",
@@ -78,8 +78,9 @@ words:[
     "已然形",
     "命令形"
   ],
-  explanation:"熱中する。"
+  explanation:"物語の世界に入り込むこと。『入る』の連用形。"
 },
+
 {
   word:"月日",
   baseForm:"月日",

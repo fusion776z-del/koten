@@ -54,26 +54,11 @@ words:[
 {
   word:"あんなる",
   baseForm:"あり",
-  meaning:"あるらしい",
+  meaning:"ある",
   posAnswer:"動詞",
   typeAnswer:"ラ行変格活用",
   formAnswer:"連体形",
-  posChoices:["動詞","名詞","助動詞","副詞"],
-  typeChoices:[
-    "ラ行変格活用",
-    "ナ行変格活用",
-    "サ行変格活用",
-    "ラ行四段活用"
-  ],
-  formChoices:[
-    "未然形",
-    "連用形",
-    "終止形",
-    "連体形",
-    "已然形",
-    "命令形"
-  ],
-  explanation:"『あり』の連体形。"
+  explanation:"存在を表す『あり』の連体形。"
 },
 {
   word:"いかで",

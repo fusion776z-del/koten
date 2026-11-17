@@ -22,7 +22,7 @@ text:`
 <span class="word" data-id="6">紫の上</span>
 などを
 心に
-<span class="word" data-id="7">かけつつ</span>、
+<span class="word" data-id="7">かけ</span>つつ、
 
 <span class="word" data-id="8">夢</span>
 に
@@ -149,9 +149,9 @@ words:[
   explanation:"源氏物語の中心人物。"
 },
 {
-  word:"かけつつ",
+  word:"かけ",
   baseForm:"かく",
-  meaning:"思い続けて",
+  meaning:"心に留める",
   posAnswer:"動詞",
   typeAnswer:"カ行下二段活用",
   formAnswer:"連用形",
@@ -170,8 +170,9 @@ words:[
     "已然形",
     "命令形"
   ],
-  explanation:"心に留め続ける。"
+  explanation:"心にかけること。『つつ』に接続する連用形。"
 },
+
 {
   word:"見え",
   baseForm:"見ゆ",
