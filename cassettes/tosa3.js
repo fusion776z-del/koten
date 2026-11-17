@@ -5,63 +5,34 @@ const TOSA_CHAPTER3 = {
   title:"土佐日記",
 
   chapter:"第3章 船出",
-
- text:`
-
+  text:`
 <span class="word" data-id="0">舟</span>
-
 に
-
 <span class="word" data-id="1">乗り</span>
-
 て、
-
 <span class="word" data-id="2">浦</span>
-
 より
-
 <span class="word" data-id="3">漕ぎ</span>
-
 <span class="word" data-id="4">出で</span>
-
-ぬ。
-
-<span class="word" data-id="5">人々</span>
-
+<span class="word" data-id="5">ぬ</span>。
+<span class="word" data-id="6">人々</span>
 、
-
-<span class="word" data-id="6">別れ</span>
-
+<span class="word" data-id="7">別れ</span>
 を
-
-<span class="word" data-id="7">惜しみ</span>
-
+<span class="word" data-id="8">惜しみ</span>
 て、
-
-<span class="word" data-id="8">酒</span>
-
-<span class="word" data-id="9">飲み</span>
-
-<span class="word" data-id="10">けり</span>。
-
-<span class="word" data-id="11">海</span>
-
+<span class="word" data-id="9">酒</span>
+<span class="word" data-id="10">飲み</span>
+<span class="word" data-id="11">けり</span>。
+<span class="word" data-id="12">海</span>
 の
-
-<span class="word" data-id="12">上</span>
-
+<span class="word" data-id="13">上</span>
 は
-
-<span class="word" data-id="13">静か</span>
-
+<span class="word" data-id="14">静か</span>
 なり。
-
-<span class="word" data-id="14">心</span>
-
+<span class="word" data-id="15">心</span>
 やすし。
-
 `,
-
   words:[
 
 {
@@ -124,7 +95,33 @@ const TOSA_CHAPTER3 = {
   formChoices:["未然形","連用形","終止形","連体形","已然形","命令形"],
   explanation:"出発する。"
 },
-
+{
+  word:"ぬ",
+  baseForm:"ぬ",
+  meaning:"〜してしまった",
+  posAnswer:"助動詞",
+  typeAnswer:"特殊型",
+  formAnswer:"終止形",
+  posChoices:[
+    "助動詞",
+    "動詞",
+    "助詞",
+    "名詞"
+  ],
+  typeChoices:[
+    "特殊型",
+    "ク活用",
+    "シク活用",
+    "タリ活用"
+  ],
+  formChoices:[
+    "終止形",
+    "連体形",
+    "連用形",
+    "未然形"
+  ],
+  explanation:"完了の助動詞。『出でぬ』で『出発してしまった』の意。"
+},
 {
   word:"人々",
   baseForm:"人々",
@@ -243,7 +240,8 @@ const TOSA_CHAPTER3 = {
   formAnswer:"なし",
   posChoices:["名詞","動詞","助詞","副詞"],
   explanation:"人々の気持ち。"
-}
+},
+
 
 ],
 

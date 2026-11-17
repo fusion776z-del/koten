@@ -7,57 +7,31 @@ const TOSA_CHAPTER4 = {
   chapter:"第4章 月を見る",
 
 text:`
-
 <span class="word" data-id="0">夜</span>
-
 になりて、
-
 <span class="word" data-id="1">月</span>
-
 いと
-
 <span class="word" data-id="2">明かく</span>
-
 <span class="word" data-id="3">出で</span>
-
-たり。
-
-<span class="word" data-id="4">海</span>
-
+<span class="word" data-id="4">たり</span>。
+<span class="word" data-id="5">海</span>
 の
-
-<span class="word" data-id="5">上</span>
-
+<span class="word" data-id="6">上</span>
 に
-
-<span class="word" data-id="6">光</span>
-
-<span class="word" data-id="7">さし</span>
-
+<span class="word" data-id="7">光</span>
+<span class="word" data-id="8">さし</span>
 て、
-
-<span class="word" data-id="8">波</span>
-
+<span class="word" data-id="9">波</span>
 も
-
-<span class="word" data-id="9">白く</span>
-
-<span class="word" data-id="10">見ゆ</span>。
-
-<span class="word" data-id="11">人々</span>
-
+<span class="word" data-id="10">白く</span>
+<span class="word" data-id="11">見ゆ</span>。
+<span class="word" data-id="12">人々</span>
 みな
-
-<span class="word" data-id="12">眺め</span>
-
-<span class="word" data-id="13">けり</span>。
-
+<span class="word" data-id="13">眺め</span>
+<span class="word" data-id="14">けり</span>。
 いと
-
-<span class="word" data-id="14">美し</span>。
-
+<span class="word" data-id="15">美し</span>。
 `,
-
 
  words:[
 
@@ -130,7 +104,33 @@ text:`
   ],
   explanation:"月が出ること。"
 },
-
+{
+  word:"たり",
+  baseForm:"たり",
+  meaning:"〜ている",
+  posAnswer:"助動詞",
+  typeAnswer:"特殊型",
+  formAnswer:"終止形",
+  posChoices:[
+    "助動詞",
+    "動詞",
+    "助詞",
+    "名詞"
+  ],
+  typeChoices:[
+    "特殊型",
+    "ク活用",
+    "シク活用",
+    "タリ活用"
+  ],
+  formChoices:[
+    "終止形",
+    "連体形",
+    "連用形",
+    "未然形"
+  ],
+  explanation:"存続・完了の助動詞。『出でたり』で『出ている』『出た』の意。"
+},
 {
   word:"海",
   baseForm:"海",

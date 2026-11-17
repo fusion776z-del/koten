@@ -106,14 +106,19 @@ const TOSA_CHAPTER9 = {
   baseForm:"ぬ",
   meaning:"〜てしまった",
   posAnswer:"助動詞",
-  typeAnswer:"ナ変型",
+  typeAnswer:"特殊型",
   formAnswer:"終止形",
-  posChoices:["助動詞","動詞","助詞","名詞"],
+  posChoices:[
+    "助動詞",
+    "動詞",
+    "助詞",
+    "名詞"
+  ],
   typeChoices:[
-    "ナ変型",
     "特殊型",
     "ク活用",
-    "シク活用"
+    "シク活用",
+    "タリ活用"
   ],
   formChoices:[
     "終止形",
