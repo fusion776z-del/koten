@@ -6,57 +6,32 @@ const TAKETORI_CHAPTER9 = {
 
   chapter:"第9章 月の使者",
 
-  text:`
-
-  <span class="word" data-id="0">八月</span>
-
-  の
-
-  <span class="word" data-id="1">十五夜</span>
-
-  に、
-
-  <span class="word" data-id="2">月</span>
-
-  の
-
-  <span class="word" data-id="3">使ひ</span>
-
-  <span class="word" data-id="4">来たり</span>。
-
-  <span class="word" data-id="5">翁</span>
-
-  は
-
-  <span class="word" data-id="6">嘆き</span>
-
-  て、
-
-  <span class="word" data-id="7">姫</span>
-
-  を
-
-  <span class="word" data-id="8">守ら</span>
-
-  む
-
-  と
-
-  <span class="word" data-id="9">思へ</span>
-
-  ど、
-
-  <span class="word" data-id="10">力</span>
-
-  <span class="word" data-id="11">及ば</span>
-
-  ず。
-
-  <span class="word" data-id="12">涙</span>
-
-  なり。
-
-  `,
+ text:`
+<span class="word" data-id="0">八月</span>
+の
+<span class="word" data-id="1">十五夜</span>
+に、
+<span class="word" data-id="2">月</span>
+の
+<span class="word" data-id="3">使ひ</span>
+<span class="word" data-id="4">来</span>たり。
+<span class="word" data-id="5">翁</span>
+は
+<span class="word" data-id="6">嘆き</span>
+て、
+<span class="word" data-id="7">姫</span>
+を
+<span class="word" data-id="8">守ら</span>
+む
+と
+<span class="word" data-id="9">思へ</span>
+ど、
+<span class="word" data-id="10">力</span>
+<span class="word" data-id="11">及ば</span>
+ず。
+<span class="word" data-id="12">涙</span>
+なり。
+`,
 
   words:[
 
@@ -104,30 +79,36 @@ const TAKETORI_CHAPTER9 = {
       explanation:"月から来た使者。"
     },
 
-    {
-      word:"来たり",
-      baseForm:"来",
-      meaning:"やって来た",
-      posAnswer:"動詞",
-      typeAnswer:"カ行変格活用",
-      formAnswer:"連用形",
-      posChoices:["動詞","名詞","助動詞","副詞"],
-      typeChoices:[
-        "カ行変格活用",
-        "ラ行四段活用",
-        "サ行変格活用",
-        "下二段活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"カ変動詞『来』の連用形。"
-    },
+ {
+  word:"来",
+  baseForm:"来",
+  meaning:"来る",
+  posAnswer:"動詞",
+  typeAnswer:"カ行変格活用",
+  formAnswer:"連用形",
+  posChoices:[
+    "動詞",
+    "名詞",
+    "助動詞",
+    "副詞"
+  ],
+  typeChoices:[
+    "カ行変格活用",
+    "ラ行四段活用",
+    "サ行変格活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"カ行変格活用動詞『来（く）』の連用形。後ろに完了・存続の助動詞『たり』が続く。"
+},
+
 
     {
       word:"翁",

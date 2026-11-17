@@ -30,7 +30,7 @@ const TAKETORI_CHAPTER3 = {
 
   て
 
-  <span class="word" data-id="6">ゐたり</span>。
+  <span class="word" data-id="6">ゐ</span>たり。。
 
   <span class="word" data-id="7">愛で</span>
 
@@ -150,30 +150,35 @@ const TAKETORI_CHAPTER3 = {
       explanation:"ク活用形容詞『小さし』の連用形。"
     },
 
-    {
-      word:"ゐたり",
-      baseForm:"ゐる",
-      meaning:"座っている",
-      posAnswer:"動詞",
-      typeAnswer:"ワ行上一段活用",
-      formAnswer:"連用形",
-      posChoices:["動詞","形容詞","助動詞","名詞"],
-      typeChoices:[
-        "ワ行上一段活用",
-        "ラ行変格活用",
-        "ラ行四段活用",
-        "下二段活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"『ゐる』の連用形。"
-    },
+{
+  word:"ゐ",
+  baseForm:"ゐる",
+  meaning:"いる",
+  posAnswer:"動詞",
+  typeAnswer:"ワ行上一段活用",
+  formAnswer:"連用形",
+  posChoices:[
+    "動詞",
+    "形容詞",
+    "助動詞",
+    "名詞"
+  ],
+  typeChoices:[
+    "ワ行上一段活用",
+    "ラ行変格活用",
+    "ラ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"ワ行上一段活用動詞『ゐる』の連用形。後ろに存続の助動詞『たり』が続く。"
+},
 
     {
       word:"愛で",
