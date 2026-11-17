@@ -6,55 +6,29 @@ const ISE_CHAPTER4 = {
 
   chapter:"第4章 恋心",
 
-  text:`
-
-  <span class="word" data-id="0">男</span>
-
-  、
-
-  <span class="word" data-id="1">帰り</span>
-
-  て
-
-  のちも、
-
-  <span class="word" data-id="2">女</span>
-
-  のこと
-
-  <span class="word" data-id="3">忘れ</span>
-
-  ず。
-
-  <span class="word" data-id="4">昼</span>
-
-  も
-
-  <span class="word" data-id="5">夜</span>
-
-  も、
-
-  <span class="word" data-id="6">思ひ</span>
-
-  <span class="word" data-id="7">続け</span>
-
-  <span class="word" data-id="8">けり</span>。
-
-  <span class="word" data-id="9">心</span>
-
-  の
-
-  <span class="word" data-id="10">乱れ</span>
-
-  いよいよ
-
-  <span class="word" data-id="11">深く</span>
-
-  なり
-
-  <span class="word" data-id="12">けり</span>。
-
-  `,
+ text:`
+<span class="word" data-id="0">男</span>、
+<span class="word" data-id="1">帰り</span>
+てのちも、
+<span class="word" data-id="2">女</span>
+のこと
+<span class="word" data-id="3">忘れ</span>
+ず。
+<span class="word" data-id="4">昼</span>
+も
+<span class="word" data-id="5">夜</span>
+も、
+<span class="word" data-id="6">思ひ</span>
+<span class="word" data-id="7">続き</span>
+<span class="word" data-id="8">けり</span>。
+<span class="word" data-id="9">心</span>
+の
+<span class="word" data-id="10">乱れ</span>
+いよいよ
+<span class="word" data-id="11">深く</span>
+なり
+<span class="word" data-id="12">けり</span>。
+`,
 
   words:[
 
@@ -165,26 +139,35 @@ const ISE_CHAPTER4 = {
       explanation:"恋しく思うこと。"
     },
 
-    {
-      word:"続け",
-      baseForm:"続く",
-      meaning:"続く",
-      posAnswer:"動詞",
-      typeAnswer:"カ行下二段活用",
-      formAnswer:"連用形",
-      posChoices:["動詞","名詞","助動詞","副詞"],
-      typeChoices:[
-        "カ行下二段活用",
-        "カ行四段活用",
-        "ラ行四段活用",
-        "上一段活用"
-      ],
-      formChoices:[
-        "未然形","連用形","終止形",
-        "連体形","已然形","命令形"
-      ],
-      explanation:"絶えず続くこと。"
-    },
+  {
+  word:"続き",
+  baseForm:"続く",
+  meaning:"続く",
+  posAnswer:"動詞",
+  typeAnswer:"カ行四段活用",
+  formAnswer:"連用形",
+  posChoices:[
+    "動詞",
+    "名詞",
+    "助動詞",
+    "副詞"
+  ],
+  typeChoices:[
+    "カ行四段活用",
+    "カ行下二段活用",
+    "ラ行四段活用",
+    "上一段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"カ行四段活用動詞『続く』の連用形。"
+},
 
     {
       word:"けり",

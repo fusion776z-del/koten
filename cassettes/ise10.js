@@ -69,30 +69,35 @@ const ISE_CHAPTER10 = {
       explanation:"和歌の冒頭。"
     },
 
-    {
-      word:"なれ",
-      baseForm:"なる",
-      meaning:"慣れる",
-      posAnswer:"動詞",
-      typeAnswer:"ラ行四段活用",
-      formAnswer:"已然形",
-      posChoices:["動詞","名詞","助動詞","副詞"],
-      typeChoices:[
-        "ラ行四段活用",
-        "ナ行変格活用",
-        "カ行四段活用",
-        "下二段活用"
-      ],
-      formChoices:[
-        "未然形",
-        "連用形",
-        "終止形",
-        "連体形",
-        "已然形",
-        "命令形"
-      ],
-      explanation:"長年親しんできたという意味。"
-    },
+   {
+  word:"なれ",
+  baseForm:"慣る",
+  meaning:"慣れる",
+  posAnswer:"動詞",
+  typeAnswer:"ラ行下二段活用",
+  formAnswer:"連用形",
+  posChoices:[
+    "動詞",
+    "名詞",
+    "助動詞",
+    "副詞"
+  ],
+  typeChoices:[
+    "ラ行下二段活用",
+    "ラ行四段活用",
+    "カ行四段活用",
+    "下二段活用"
+  ],
+  formChoices:[
+    "未然形",
+    "連用形",
+    "終止形",
+    "連体形",
+    "已然形",
+    "命令形"
+  ],
+  explanation:"『慣る』の連用形。長く親しんできたという意味。"
+},
 
     {
       word:"妻",
